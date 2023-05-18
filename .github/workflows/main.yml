@@ -27,6 +27,7 @@ jobs:
             -
                 name: Setup Git Infomation
                 run: |
+                    git config credential.username 'timeispreciousFeng'
                     git config --global user.name 'timeispreciousFeng'
                     git config --global user.email '1192255165@qq.com'
             # Record (use record.sh or record2.sh)
